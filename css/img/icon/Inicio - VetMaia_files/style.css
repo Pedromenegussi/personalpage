@@ -1,0 +1,22 @@
+.middle {
+    padding: 100px 100px 0px 100px;
+    display: block;
+}
+
+.middle h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.rodape {
+    border: 10px;
+    border-color: black;
+    padding-left: 50%;
+    bottom: 0%;
+    padding-top: ;
+    position: fixed;
+}
+
+.rodape h1 {
+    color: lawngreen;
+}
