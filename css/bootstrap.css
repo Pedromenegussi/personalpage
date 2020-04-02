@@ -11,8 +11,7 @@ html {
 }
 body {
   margin: 0px;
-  background-color: rgba(150, 91, 91, 0.671);
-
+  background-color: rgb(95, 95, 95);
 }
 article,
 aside,
@@ -1585,7 +1584,7 @@ pre code {
 .container {
   padding-right: 15px;
   padding-left: 15px;
-  padding-top: 70px;
+  padding-top: 10%;
   padding-bottom: 70px;
   margin-right: auto;
   margin-left: auto;
@@ -4963,6 +4962,7 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
+  padding-right: 30px;
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
@@ -5492,6 +5492,8 @@ button.list-group-item-danger.active:focus {
 }
 .panel-footer {
   padding: 10px 15px;
+  padding-bottom: 0px;
+  position: fixed;
   background-color: #f8f8f8;
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
@@ -5958,11 +5960,16 @@ button.close {
 }
 .modal-footer {
   padding: 10px;
-  height: 10px;
+  height: 20px;
   text-align: right;
   border-top: 10px solid #e5e5e5;
   bottom: 0%;
 }
+.modal-footer a {
+  padding-left: 5%;
+  float: left;
+}
+
 .modal-footer .btn + .btn {
   margin-bottom: 0;
   margin-left: 5px;
