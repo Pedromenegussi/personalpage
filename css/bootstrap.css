@@ -9,10 +9,13 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+
 body {
   margin: 0px;
-  background-color: rgb(95, 95, 95);
+  background-color: rgba(163, 219, 148, 0.61);
 }
+
 article,
 aside,
 details,
